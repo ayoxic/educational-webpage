@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact - INSEA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <div class="logo-mark"><span></span><span></span><span></span></div>
+            <input type="search" placeholder="Recherche...">
+            <select><option>Acces direct</option></select>
+            <nav class="quick-links"><a href="index.html">Accueil</a><a href="index.html#actualites">Actualites</a><a href="index.html#pedagogie">Etudiants</a><a href="contact.html">Contact</a></nav>
+        </div>
+    </header>
+    <section class="brand-strip"><div class="container brand-inner"><div class="brand-block"><strong>INSEA</strong><span>Institut National de Statistique et d'Economie Appliquee</span></div><div class="socials"><b></b><b></b><b></b><b></b></div></div></section>
+    <nav class="main-nav"><div class="container nav-grid"><a href="index.html#presentation">INSEA</a><a href="index.html#pedagogie">PROGRAMME</a><a href="index.html#recherche">RECHERCHE</a><a href="index.html#stage">STAGE</a><a href="index.html#partenaires">PARTENAIRES</a><a href="index.html#vie">VIE ESTUDIANTINE</a><a href="index.html#cid">CID</a><a href="index.html#laureats">LAUREATS</a></div></nav>
+
+    <section class="hero compact-hero"><div class="container hero-grid"><div class="hero-copy"><h1>Contact</h1><p>Retrouvez la localisation de l'INSEA et envoyez votre message a l'administration.</p></div><div class="hero-photo"><div class="building"></div></div></div></section>
+    <div class="container breadcrumb">Vous etes ici : Accueil / Contact</div>
+
+    <main class="container contact-layout">
+        <aside class="contact-left">
+            <form class="newsletter"><h3>Newsletter</h3><input type="email" placeholder="Email"><button>S'abonner</button></form>
+            <section class="side-box"><h3>Derniers evenements</h3><p>Aucun evenement</p></section>
+            <section class="agenda"><h3>Agenda</h3><div class="month">Avril 2026</div><table><tr><th>D</th><th>L</th><th>M</th><th>M</th><th>J</th><th>V</th><th>S</th></tr><tr><td></td><td></td><td><button class="has-event" data-agenda-day="2">2</button></td><td><button data-agenda-day="3">3</button></td><td><button data-agenda-day="4">4</button></td><td><button data-agenda-day="5">5</button></td><td><button data-agenda-day="6">6</button></td></tr><tr><td><button class="has-event" data-agenda-day="7">7</button></td><td><button data-agenda-day="8">8</button></td><td><button data-agenda-day="9">9</button></td><td><button data-agenda-day="10">10</button></td><td><button data-agenda-day="11">11</button></td><td><button data-agenda-day="12">12</button></td><td><button data-agenda-day="13">13</button></td></tr><tr><td><button data-agenda-day="14">14</button></td><td><button data-agenda-day="15">15</button></td><td><button data-agenda-day="16">16</button></td><td><button data-agenda-day="17">17</button></td><td><button data-agenda-day="18">18</button></td><td><button data-agenda-day="19">19</button></td><td><button data-agenda-day="20">20</button></td></tr><tr><td><button data-agenda-day="21">21</button></td><td><button class="today has-event" data-agenda-day="22">22</button></td><td><button data-agenda-day="23">23</button></td><td><button data-agenda-day="24">24</button></td><td><button data-agenda-day="25">25</button></td><td><button data-agenda-day="26">26</button></td><td><button data-agenda-day="27">27</button></td></tr></table><div class="agenda-details" data-agenda-details><strong>22 Avril 2026</strong><span>Soutenance doctorale a l'INSEA.</span></div></section>
+        </aside>
+
+        <section class="contact-main">
+            <h2>INSEA</h2>
+            <div class="contact-columns">
+                <article class="contact-info">
+                    <h3>Localisation</h3>
+                    <iframe class="contact-map" title="Localisation INSEA Rabat" src="https://www.openstreetmap.org/export/embed.html?bbox=-6.880%2C33.970%2C-6.850%2C34.005&layer=mapnik&marker=33.986%2C-6.865"></iframe>
+                    <p>Institut National de Statistique et d'Economie Appliquee<br>Madinat Al Irfane, Rabat, Maroc<br>BP 6217</p>
+                    <p>Tel : (212) 05 37 77 45 59<br>Fax : (212) 05 37 77 94 57</p>
+                    <a class="map-link" href="https://www.openstreetmap.org/search?query=INSEA%20Rabat" target="_blank" rel="noopener">Ouvrir la localisation</a>
+                </article>
+                <form class="contact-form" action="#" method="post">
+                    <h3>Formulaire de contact</h3>
+                    <p>Version statique. Pour enregistrer dans phpMyAdmin, utilisez contact.php.</p>
+                    <label>Nom *</label><input type="text" name="nom" required>
+                    <label>Email *</label><input type="email" name="email" required>
+                    <label>Sujet *</label><input type="text" name="sujet" required>
+                    <label>Message *</label><textarea name="message" rows="8" required></textarea>
+                    <label class="checkbox-line">Envoyer une copie a votre adresse <input type="checkbox" name="copie"></label>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
